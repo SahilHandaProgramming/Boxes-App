@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right,rgb(143, 186, 201),white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.title>h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.player{
+    background-color: rgb(181, 216, 238);
+    padding: 35vh;
+}
+.items img{
+     height: 8vh;
+     margin-top: 0vh;
+}
+button{
+    height: 8vh;    
+    margin-top: 20vh;
+    background: transparent;
+    border: none;
+}
+.change-img{
+    padding-top: 24vh;
+}
+
+.active{
+    background-color: rgb(198, 216, 238);
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(198, 216, 238);
+    width: 99.4vw;
+    text-align: center;
+}
+.resetBtn{
+    margin-top: 12vh;
+}
+.instructions{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 45vw;
+}
+ul li{
+    line-height: 10vw;
+}
+
+.instructionClose{
+    position: absolute;
+    right: 0 ;
+    top: -15vh;
+}
